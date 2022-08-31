@@ -1,0 +1,231 @@
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+
+
+
+body {
+  max-width: 100%;
+background-color:#a9dcf4 ;  
+font-family: PT Serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color:#31548b;
+}
+.header { 
+  max-width: 100%;
+  margin-left:5%;
+ }
+   
+.conteiner { 
+max-width: 100%; 
+display: flex;
+position: relative; 
+}
+
+h1{ 
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+}
+h3{ 
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+}
+
+.nomer{ 
+  color:black;
+  font-size: 16px;
+line-height: 28px; 
+  }
+
+
+.text{ 
+margin-top:10%;
+margin-right:5%;
+text-align: justify;
+}
+
+.text_2{ 
+  margin-top:3%;
+  margin-right:5%;
+  text-align: justify;
+}
+
+.company{ 
+  margin-top:2%;
+  color:black;
+}
+
+.fon {	
+max-width: 60%;
+}
+
+
+.fhoto{
+object-fit: cover;
+width:800px;
+}
+
+.inform { 
+  margin-top:3%;
+  max-width: 100%; 
+  display: flex;
+  position: relative; 
+  
+}
+
+.help {	
+ margin-top:30%;
+ 
+  }
+
+.activity {	
+  max-width: 60%;
+  text-align: justify;
+  margin-right:5%;
+  padding-left: 2%;
+  color:black;
+  
+  }
+
+.service {
+  margin-top:3%; 
+ 
+}
+
+.service_text {
+  margin-top:2%; 
+  margin-left:5%; 
+  color:black;
+  font-size: 30px;
+line-height: 42px;
+text-decoration: underline;
+}
+.contact{
+ margin-top:2%; 
+  margin-left:5%; 
+  color:black;
+  font-size: 26px;
+line-height: 38px; 
+}
+
+@media screen and (max-width: 1200px) {
+  h1{ 
+    font-size: 40px;
+    line-height: 48px;
+    }
+    h3{ 
+    font-size: 30px;
+    line-height: 38px;
+    }
+    .fon {	
+      max-width: 55%;
+      }
+
+      .fhoto{
+        width:600px;
+        }
+}
+
+@media screen and (max-width: 900px) {
+  h1{ 
+    font-size: 30px;
+    line-height: 38px;
+    
+    }
+    h3{ 
+    font-size: 20px;
+    line-height: 28px;
+    }
+
+    .text {	
+      max-width: 60%;
+      }
+    .fhoto{
+      width:500px;
+      }
+
+  .inform{
+        display: block;
+       }  
+
+       .help {	
+        margin-top:3%;
+        margin-bottom: 3%;
+         }
+
+         .activity {	
+          max-width: 100%;
+         }
+         .nomer {  
+          font-size: 14px;
+          line-height: 18px;
+          }
+         body {  
+        font-size: 18px;
+        line-height: 28px;
+        }
+        .service_text {
+        font-size: 18px;
+        line-height: 28px;
+        
+        }
+        .contact{
+        font-size: 18px;
+        line-height: 28px; 
+        }
+}
+
+@media screen and (max-width: 768px) {
+  h1{ 
+    font-size: 25px;
+    line-height: 33px;
+    
+  }
+    h3{ 
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .text {	
+      max-width: 60%;
+  }
+  .fhoto{
+      width:350px;
+ }
+ .inform{
+  display: block;
+ }  
+ 
+ .help {	
+  margin-top:3%;
+  margin-bottom: 3%;
+   }
+
+   .activity {	
+    max-width: 100%;
+   }
+   .nomer {  
+    font-size: 10px;
+    line-height: 18px;
+    }
+   body {  
+  font-size: 16px;
+  line-height: 28px;
+  }
+  .service_text {
+  font-size: 16px;
+  line-height: 18px;
+  
+  }
+  .contact{
+  font-size: 16px;
+  line-height: 18px; 
+  }
+
+}
